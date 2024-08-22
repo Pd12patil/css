@@ -77,4 +77,10 @@
     transform-origin: left;
     transform: scaleX(1);
   }
+
+  @media screen and (max-width:500px) {
+    .index {
+      margin-left: -25px;
+    }
+  }
   
